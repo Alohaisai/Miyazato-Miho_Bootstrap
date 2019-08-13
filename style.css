@@ -1,2 +1,26 @@
 @charset "UTF-8";
 
+.sns {
+  display: flex;
+  justify-content: center;
+}
+
+.tw {
+  margin-right: 10px;
+}
+
+.iframeWrapper {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+ }
+
+ .iframeWrapper iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
